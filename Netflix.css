@@ -1,0 +1,400 @@
+body {
+    height: 400vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.background {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/netflixbgimage.jpg);
+    /* background-position: center; */
+    position: absolute;
+
+}
+
+.main {
+    height: 100vh;
+}
+
+.navbar {
+    height: 100px;
+}
+
+.navbar img {
+    width: 250px;
+    padding-left: 70px;
+    
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side .btn {
+    margin-left: 30px;
+    width: 150px;
+}
+
+.heading-content {
+    padding-top: 200px;
+}
+
+.heading-content h1 {
+    font-size: 45px;
+    font-weight: 920;
+}
+
+.heading-buttons {
+    display: flex;
+    border: 2px solid red;
+
+}
+
+.heading-buttons .btn {
+    font-size: 26px;
+}
+
+.form-floating {
+    font-size: 18px;
+}
+
+.divider {
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    background-color: rgb(35, 35, 35);
+    margin-left: -5px;
+}
+
+.slide-1 {
+    height: 70vh;
+}
+
+.slide-2 {
+    height: 70vh;
+}
+.slide-3{
+    height: 70vh;
+}
+
+.left-side-1 h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.left-side-1 p {
+
+    font-size: 20px;
+}
+.slide-1 .right-side-1 img{
+    position: relative;
+    left: 60px;
+}
+
+.left-side-2 h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.left-side-2 p {
+    font-size: 20px;
+}
+.left-side-3 h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.left-side-3 p {
+    font-size: 20px;
+}
+
+.left-side-1,
+.left-side-2,
+.left-side-3{
+    padding-top: 180px;
+    
+}
+.slide-1 .right-side-1 img{
+    /* border: 2px solid red; */
+    position: relative;
+    left : 100px;
+}
+.slide-2 .right-side-2 img{
+    position: relative;
+    left : 40px;
+}
+.slide-3 .right-side-3 img{
+    position: relative;
+    left : 80px;
+    top: 60px;
+}
+
+.right-side-1 {
+
+    padding-top: 50px;
+}
+
+.right-side-2 {
+    padding-top: 50px;
+}
+
+
+.FAQ {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.footer a {
+    color: #6C757D;
+}
+
+.footer ul li {
+    padding: 7px;
+    list-style: none;
+    /* font-size: 10px; */
+}
+
+.right-side-1 img:hover {
+    transform: translateY(-6px);
+    cursor: pointer;
+}
+
+.right-side-2 img:hover {
+    transform: translateY(-6px);
+    cursor: pointer;
+}
+.right-side-3 img:hover {
+    transform: translateY(-6px);
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 400px) {     /*   this is for small device */
+
+    .heading-content h1 {
+        font-weight: 800;
+        font-size: 35px;
+        text-align: center;
+        color: white;
+
+    }
+
+    .heading-content {
+        padding-top: 100px;
+    }
+
+    .heading-content h3,
+    h5 {
+        font-size: 23px;
+
+    }
+
+    .right-side-btn {
+        padding-top: 20px;
+        margin-left: 20px;
+
+
+    }
+
+    .navbar img {
+        margin-top: 20px;
+        width: 200px;
+        height: 15px;
+        /* border: 2px solid red; */
+        position: relative;
+        right: 60px;
+    }
+
+    .heading-content .btn {
+        margin-top: 10px;
+    }
+
+    .container-fluid-2 {
+        margin-top: 150px;
+    }
+
+    .left-side-1 {
+        padding-top: 50px;
+    }
+
+    .left-side-1 h2 {
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .left-side-1 p {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+
+    }
+
+    .left-side-2 {
+        position: relative;
+        bottom: 630px;
+    }
+
+    .left-side-2 h2 {
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .left-side-2 p {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .left-side-3 h2 {
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .left-side-3 p {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .left-side-3 {
+        position: relative;
+        bottom: 180px;
+    }
+    
+    .right-side-1 {
+        padding-top: 5px;
+    }
+
+    .right-side-2 {
+        position: relative;
+        top: 130px;
+    }
+    
+
+    .FAQ {
+        padding-top: 130px;
+    }
+
+    .FAQ {
+        font-size: 25px;
+        font-weight: 900;
+
+    }
+
+    .l-1 {
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+
+    .l-2 {
+        margin-right: 180px;
+    }
+
+    .divider-2 {
+        position: relative;
+        top: 100px;
+    }
+
+    .divider-3 {
+        position: relative;
+        top: 100px;
+    }
+    .divider-4 {
+        position: relative;
+        top: 120px;
+    }
+    .divider-5{
+        position: relative;
+        top: 80px;
+    }
+
+    .navbar-toggler{
+        position: relative;
+        top: 10px;
+    }
+    .slide-2 .right-side-2 img{
+        position: relative;
+        left: -5px;
+    }
+    .slide-1 .right-side-1 img{
+        position: relative;
+        left: -5px;
+    }
+    .right-side-3 {
+        position: relative;
+        bottom: 200px;
+        left: -80px;
+        /* border: 2px solid red; */
+    }
+    
+}
+
+@media only screen and (max-width: 992px) and (min-width:400px) {   /* for medium device */
+    .slide-1 .left-side-1{
+        /* border: 2px solid red; */
+        padding: 100px 0;
+        text-align: center;
+    }
+    
+    .slide-1 .right-side-1{
+        /* border: 2px solid red; */
+       
+       
+    }
+    .slide-1 .right-side-1 img{
+        position: relative;
+        left : 140px; 
+        bottom: 110px;
+       
+    }
+
+    .slide-1 .left-side-1 h2{
+        font-size: 38px;
+        font-weight: 800;
+    }
+
+    .slide-1 .left-side-1 p{
+        font-size: 18px;
+    }
+    
+    .slide-2 .left-side-2{
+        position: relative;
+        bottom: 530px;
+        text-align: center;
+    }
+    
+    .slide-2 .right-side-2{
+        position: relative;
+        top: 250px;
+        left: 120px;
+    }
+    .slide-2 .left-side-2 h2{
+        font-size: 38px;
+        font-weight: 800;
+    }
+    .slide-3 .left-side-3{
+        position: relative;
+        bottom: 80px;
+        text-align: center;
+    }
+    .slide-3 .right-side-3 img{
+        position: relative;
+        top: -20px;
+        left: 140px;
+    }
+    
+    .slide-3 .left-side-3 h2{
+        font-size: 38px;
+        font-weight: 800;
+    }
+    .slide-3 .left-side-3 p{
+        font-size: 18px;
+    }
+    
+}
